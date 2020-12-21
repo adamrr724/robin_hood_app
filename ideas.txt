@@ -1,0 +1,30 @@
+Ideas for this project
+
+What might be a good indicator of a "good" buy?
+
+- Percentage of Buy Ratings & # of Ratings. 
+    - How many ratings is considered consensus? 10-20?
+    - What is a good buy percentage? 90+%?
+
+- How undervalued a stock is. 
+    - What is a good indication of value? 
+        - Some kind of comparision between 52 week high/price targets/current price/mean stock price?
+        - Example: Current price is $50, Price Target is $75, and 52 week high is $60
+            - price target - current price = +/- earning potential
+            - 52 week high - current price/ 52 week high * 100 = percentage off of high
+
+- Earnings Per Share, Adjusted EPS, P/E ratio, or other Profitability Statistics
+
+- Set up environment variables so that no credentials get stored in the code and we don't have to change it every time (I can walk through this with you... it's just a security best practice)
+
+
+Additional questions:
+
+How do we want to see this information? 
+
+
+What stocks would we like to see this run against? Full index (like S&P) or a group of stocks we pick?
+
+
+
+
