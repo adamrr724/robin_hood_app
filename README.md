@@ -13,7 +13,16 @@ You'll need to install the Robin Stocks library:
 
 https://robin-stocks.readthedocs.io/en/latest/install.html
 
-Then you add your robinhood credentials to the rh_recommendations.py script in place of "username" & "password" -- and then run the script!
+Then we'll want to make sure we have our credentials set up. Create a file in the project folder called secrets.py.
+
+    mkdir secrets.py
+
+Then add the username and password to the file:
+
+     username = "username here"
+     password = "password here"
+
+Then run the script!
 
     python3 rh_recommendations.py 
 

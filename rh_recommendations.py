@@ -1,20 +1,15 @@
-# Import the Robin Stocks Library
+import secrets
+# Import the Robin Stocks Library, DotEnv, & OS
 import robin_stocks as r
 
-# Set the username & password to our PWSH environment variables
-username = $env:robinUsername 
-password = $env:robinPassword
-
 # Use the Robin Stocks login function & RH username/password to authenticate
-
-login = r.login(username, password)
+login = r.login(secrets.username, secrets.password)
 
 # Define an array for the final results
 final_result = []
 
 # Use the Robin Stocks get_top_100 function to grab a JSON object with the top 100 most popular stocks info
 top_100 = r.get_top_100() 
-print(top_100)
 
 # Loop through the top 100 stocks one by one
 for stock in top_100:
