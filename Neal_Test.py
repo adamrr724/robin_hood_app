@@ -1,7 +1,13 @@
 # Import the Robin Stocks Library
 import robin_stocks as r
+
+# Set the username & password to our PWSH environment variables
+username = $env:robinUsername 
+password = $env:robinPassword
+
 # Use the Robin Stocks login function & RH username/password to authenticate
-login = r.login('adamrr724','Robinproject2020')
+
+login = r.login(username, password)
 
 # Define an array for the final results
 final_result = []
