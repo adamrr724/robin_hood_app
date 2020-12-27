@@ -6,7 +6,7 @@ username = $env:robinUsername
 password = $env:robinPassword
 
 # Use the Robin Stocks login function & RH username/password to authenticate
-login = r.login(robinUsername,robinUsername)
+login = r.login(username, password)
 
 # Define an array for the final results
 final_result = []
