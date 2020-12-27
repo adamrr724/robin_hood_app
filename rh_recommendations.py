@@ -1,13 +1,14 @@
 # Import the Robin Stocks Library
 import robin_stocks as r
 # Use the Robin Stocks login function & RH username/password to authenticate
-login = r.login('username','password')
+login = r.login('adamrr724','Robinproject2020')
 
 # Define an array for the final results
 final_result = []
 
 # Use the Robin Stocks get_top_100 function to grab a JSON object with the top 100 most popular stocks info
-top_100 = r.get_top_100()
+top_100 = r.get_top_100() 
+print(top_100)
 
 # Loop through the top 100 stocks one by one
 for stock in top_100:
